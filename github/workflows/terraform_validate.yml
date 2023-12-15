@@ -1,5 +1,10 @@
 name: Terraform Validate
 
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
 jobs:
   terraform-validate:
     runs-on: ubuntu-latest
