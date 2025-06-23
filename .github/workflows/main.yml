@@ -14,4 +14,4 @@ jobs:
 
       # Checks that all Terraform configuration files adhere to a canonical format
       - name: Run feed generator
-        uses: sverma092@podcast-generator@main
+        uses: sverma092/podcast-generator@main
