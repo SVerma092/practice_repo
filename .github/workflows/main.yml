@@ -12,6 +12,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Run feed generator from custom GitHub Action
       - name: Run feed generator
-        uses: sverma092/podcast-generator@main
+        uses: planetoftheweb/podcast-generator@main
